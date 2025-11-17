@@ -1,10 +1,10 @@
 #!/bin/bash
 
 # Update system
-apt update && apt -y upgrade
+apt-get update && apt -y upgrade
 
 # install necessary packages
-apt install -y samba-ad-dc krb5-user bind9-dnsutils
+apt-get install -y samba-ad-dc krb5-user bind9-dnsutils
 
 # disable unnecessary services
 systemctl disable --now smbd nmbd winbind
