@@ -1,4 +1,6 @@
 #!/bin/bash
 
+# Install script for setting up the system
 . ./bin/install-updates.sh
-# . ./bin/install-samba-ad-dc.sh
+. ./bin/install-btop.sh
+. ./bin/install-cockpit.sh
