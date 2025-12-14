@@ -4,3 +4,5 @@
 . ./bin/install-updates.sh
 . ./bin/install-btop.sh
 . ./bin/install-cockpit.sh
+. ./bin/install-samba.sh
+. ./bin/install-cloudflare.sh
